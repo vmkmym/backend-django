@@ -10,7 +10,7 @@ from meteo.models import Worldcities
 def temp_here(request):
     location = geocoder.ip('me').latlng
     temp = get_temp(location)
-    template = loader.get_template('index.html')  # 이 부분이 이제 정상적으로 작동합니다.
+    template = loader.get_template('index.html')
     context = {'temp': temp}
     return HttpResponse(template.render(context, request))
 
