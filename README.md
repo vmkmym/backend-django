@@ -2,7 +2,7 @@
 ![image](https://github.com/vmkmym/backend-django/assets/71699054/46d0537f-d099-4e35-80f5-25b15008f6de)
 
 ### 개발환경 및 버전
-- pycharm professinal edition 2024.1.4
+- pycharm professional edition 2024.1.4
 - python 3.11
 - Django 5.0.6
 
